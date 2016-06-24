@@ -12,7 +12,9 @@
 //这个类可以保证一次只有一个程序访问线程
 #import "FMDatabaseQueue.h"
 
-@interface ViewController ()
+@interface ViewController (){
+    NSInteger count;
+}
 
 @property (strong,nonatomic) FMDatabase  *database;
 
